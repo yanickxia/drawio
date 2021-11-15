@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T07:33:38.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" version="15.7.3" etag="Jicj2XocV_Vr1VadTZCT" type="github"><diagram id="QwCY7HuRyxQm76L8CfyQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-15T07:37:57.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="4oBxseKq0kAN8D0CndGD" version="15.7.3" type="github">
+  <diagram id="QwCY7HuRyxQm76L8CfyQ" name="Page-1">
+    <mxGraphModel dx="1380" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qwCySGRi7PnVcRwLJm03-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qwCySGRi7PnVcRwLJm03-1" target="qwCySGRi7PnVcRwLJm03-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-1" value="Gas-Collector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-2" value="Gas-Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="165" width="370" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-4" value="report" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="250" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-5" value="Prometheus Export" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qwCySGRi7PnVcRwLJm03-6" target="qwCySGRi7PnVcRwLJm03-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-8" value="transform" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qwCySGRi7PnVcRwLJm03-7">
+          <mxGeometry x="0.0193" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-6" value="response" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="195" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qwCySGRi7PnVcRwLJm03-11" target="qwCySGRi7PnVcRwLJm03-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://aptira.com/wp-content/uploads/2019/05/aptira_grafana_prometheus_training.png;" vertex="1" parent="1">
+          <mxGeometry x="870" y="288.4" width="257.27" height="113.2" as="geometry" />
+        </mxCell>
+        <mxCell id="qwCySGRi7PnVcRwLJm03-13" value="Fetch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="355" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
